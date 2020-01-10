@@ -15,7 +15,7 @@
 -->
 # MyInfoAuthNode
 
-MyInfoAuthNode provide simple integration of MyInfo with ForgeRock Authenticate Tree. Node provides OAuth based integration of MyInfo APIs and dynamic provision of user profile to IAM.
+MyInfoAuthNode provides provides OAuth based integration of MyInfo APIs and dynamic provision of user profile.
 
 
 **Configuration**
