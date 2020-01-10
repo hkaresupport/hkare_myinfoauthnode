@@ -33,7 +33,7 @@ MyInfoAuthNode provides provides OAuth based integration of MyInfo APIs and dyna
 
 1.	Access the below url for invoking the authentication tree:
 
-   http://localhost:3001/callback/XUI/?realm=/&service=MyInfoAuth
+   http://localhost:8080/openam/XUI/?realm=/&service=MyInfoAuth
 
 2.	User will be redirect to mock pass for authentication as per the below screenshot.
 
