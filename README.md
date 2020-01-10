@@ -29,4 +29,24 @@ MyInfoAuthNode provides provides OAuth based integration of MyInfo APIs and dyna
 ![ScreenShot](./images/authenticationtree-with-myinfonode.PNG)
 
 
+**Sample Test Case Flow**
 
+1.	Access the below url for invoking the authentication tree:
+
+   http://localhost:3001/callback/XUI/?realm=/&service=MyInfoAuth
+
+2.	User will be redirect to mock pass for authentication as per the below screenshot.
+
+   ![ScreenShot](./images/testcase/step1.png)
+
+3.	Select the user account to login as per the below screenshot.
+
+   ![ScreenShot](./images/testcase/step2.png)
+
+4.	Accept the user consent to share the profile information as below screenshot.
+
+   ![ScreenShot](./images/testcase/step3.png)
+
+5.	Once the consent is accepted, MyInfo node checks for the user account exists in the system, creates an user account and lands on the profile page as below screenshot.
+
+   ![ScreenShot](./images/testcase/step4.png)
